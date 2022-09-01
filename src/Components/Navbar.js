@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100 px-6">
+    <div class="navbar bg-pink-200 px-6">
       <div class="navbar-start">
         <div class="dropdown">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -576,7 +576,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" class="text-2xl btn btn-ghost normal-case text-xl">
+        <Link to="/" class="text-2xl btn btn-ghost normal-case ">
           Unique Creation Event Management
         </Link>
       </div>

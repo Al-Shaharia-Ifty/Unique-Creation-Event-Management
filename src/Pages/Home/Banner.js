@@ -1,6 +1,7 @@
 import React from "react";
 import banner1 from "../../Assets/images/banner_couple.jpg";
 import bg from "../../Assets/logo/banner.jpg";
+import bannerRing from "../../Assets/logo/Banner_ring.png";
 
 const Banner = () => {
   return (
@@ -9,21 +10,28 @@ const Banner = () => {
         background: `url(${bg})`,
         backgroundSize: "cover",
       }}
+      className="hero min-h-screen bg-base-200"
     >
-      <div className="flex p-32">
+      <div className="hero-content flex-col lg:flex-row">
+        <img
+          src={banner1}
+          alt=""
+          className="border-4 border-white rounded-tl-[100px] rounded-br-[100px] hover:scale-110 transition ease-linear  duration-200 shadow-2xl lg:my-28 lg:ml-20 lg:w-[670px] mt-20 lg:mr-20"
+        />
         <div className="">
           <img
-            src={banner1}
+            src={bannerRing}
             alt=""
-            className="border-4 border-white rounded-tl-[100px]"
+            className="mt-10 hover:scale-110 transition ease-linear  duration-200"
           />
-        </div>
-        <div>
-          <h2>Perfect Weddings Made Easy!</h2>
-          <p>
+          <h2 className="lg:text-6xl text-4xl mt-6 font-banner font-bold">
+            Perfect Weddings Made Easy!
+          </h2>
+          <p className="text-xl mt-6 font-line w-3/4">
             Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusm
             tempor incididunt
           </p>
+          <button></button>
         </div>
       </div>
     </div>

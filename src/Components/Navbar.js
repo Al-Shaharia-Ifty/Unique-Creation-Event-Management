@@ -577,7 +577,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/" class="text-2xl btn btn-ghost normal-case ">
-          Unique Creation Event Management
+          Event Management
         </Link>
       </div>
       <div class="navbar-center hidden lg:flex">

@@ -10,24 +10,24 @@ const Banner = () => {
         background: `url(${bg})`,
         backgroundSize: "cover",
       }}
-      className="hero min-h-screen bg-base-200"
+      className="hero"
     >
-      <div className="hero-content flex-col lg:flex-row">
+      <div className="hero-content flex-col lg:flex-row w-full">
         <img
           src={banner1}
           alt=""
-          className="border-4 border-white rounded-tl-[100px] rounded-br-[100px] hover:scale-110 transition ease-linear  duration-200 shadow-2xl lg:my-28 lg:ml-20 lg:w-[670px] mt-20 lg:mr-20"
+          className="border-4 border-white rounded-tl-[100px] rounded-br-[100px] hover:scale-110 transition ease-linear  duration-200 shadow-2xl lg:my-28 lg:ml-20 lg:w-[670px] mt-20 lg:mr-20 "
         />
         <div className="">
           <img
             src={bannerRing}
             alt=""
-            className="mt-10 hover:scale-110 transition ease-linear  duration-200"
+            className="mt-10 hover:scale-110 transition ease-linear duration-200"
           />
-          <h2 className="lg:text-6xl text-4xl mt-6 font-banner font-bold">
+          <h2 className="lg:text-6xl text-4xl mt-6 font-banner">
             Perfect Weddings Made Easy!
           </h2>
-          <p className="text-xl mt-6 font-line w-3/4">
+          <p className="text-xl mt-6 font-line lg:w-3/4">
             Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusm
             tempor incididunt
           </p>

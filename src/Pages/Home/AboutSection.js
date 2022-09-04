@@ -9,7 +9,7 @@ const AboutSection = () => {
     <div className="lg:mx-32 lg:flex lg:items-center my-20 block mx-8">
       <div className="lg:w-2/4 w-full">
         <p className="text-pink-500 text-xl">About Us</p>
-        <h2 className="text-6xl font-banner mt-5">
+        <h2 className="lg:text-6xl text-3xl font-banner mt-5">
           What We do, We do With Passion
         </h2>
         <p className="mt-5 font-line text-xl">
@@ -23,7 +23,7 @@ const AboutSection = () => {
           Learn More
         </Link>
       </div>
-      <div className="h-56 lg:w-2/4 w-full relative">
+      <div className="h-56 lg:w-2/4 w-full relative mt-5">
         <img
           src={logo}
           alt=""

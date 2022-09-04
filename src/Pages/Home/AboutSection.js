@@ -18,7 +18,7 @@ const AboutSection = () => {
         </p>
         <Link
           to="/about"
-          className="rounded-full btn btn-outline mt-5 hover:bg-pink-500"
+          className="rounded-full btn btn-outline mt-5 hover:bg-pink-500 hover:border-0  transition ease-in-out duration-500"
         >
           Learn More
         </Link>
@@ -27,12 +27,12 @@ const AboutSection = () => {
         <img
           src={logo}
           alt=""
-          className="hover:scale-110 transition ease-linear  duration-200"
+          className="hover:scale-110 transition ease-linear duration-200"
         />
         <img
           src={img1}
           alt=""
-          className="border-4 border-white rounded-tr-[50px] absolute top-0 right-0 w-3/4 z-0 hover:scale-110 transition ease-linear  duration-200"
+          className="border-4 border-white rounded-tr-[50px] absolute top-0 right-0 w-3/4 z-0 hover:scale-110 transition ease-linear duration-200"
         />
         <img
           src={img2}

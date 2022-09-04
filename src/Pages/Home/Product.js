@@ -20,7 +20,7 @@ const Product = () => {
           <img
             src={logo}
             alt=""
-            className="mx-auto mt-6 hover:scale-110 transition ease-linear  duration-200"
+            className="mx-auto mt-6 hover:scale-110 transition ease-linear duration-200"
           />
           <h2 className="lg:text-6xl text-3xl text-center font-banner mt-6">
             Includes Various Product Categories

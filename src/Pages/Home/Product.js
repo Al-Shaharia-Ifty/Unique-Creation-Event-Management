@@ -15,7 +15,7 @@ const Product = () => {
       }}
       className="mt-60"
     >
-      <div className="lg:mx-32 lg:flex lg:items-center my-20 block mx-8 py-10">
+      <div className="lg:mx-32 lg:flex lg:items-center mt-20 block mx-8 py-10">
         <div className="lg:w-2/4 w-full mr-10">
           <img
             src={logo}

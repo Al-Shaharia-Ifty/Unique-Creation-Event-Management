@@ -3,6 +3,7 @@ import AboutSection from "./AboutSection";
 import Banner from "./Banner";
 import Product from "./Product";
 import Program from "./Program";
+import Reservations from "./Reservations";
 import Together from "./Together";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <Product />
       <Program />
       <Together />
+      <Reservations />
     </div>
   );
 };

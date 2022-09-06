@@ -31,22 +31,22 @@ const Product = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4">
-          <div className="bg-white border-white border-4">
-            <img src={chair} alt="" className="" />
+          <div className="bg-white border-white border-4 shadow-2xl">
+            <img src={chair} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">Chairs</p>
           </div>
-          <div className="bg-white border-white border-4">
-            <img src={walls} alt="" className="" />
+          <div className="bg-white border-white border-4 shadow-2xl">
+            <img src={walls} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">
               Wedding Walls
             </p>
           </div>
-          <div className="bg-white border-white border-4">
-            <img src={cater} alt="" className="" />
+          <div className="bg-white border-white border-4 shadow-2xl">
+            <img src={cater} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">Catering</p>
           </div>
-          <div className="bg-white border-white border-4">
-            <img src={metal} alt="" className="" />
+          <div className="bg-white border-white border-4 shadow-2xl">
+            <img src={metal} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">
               Metal Circles & Flowers
             </p>

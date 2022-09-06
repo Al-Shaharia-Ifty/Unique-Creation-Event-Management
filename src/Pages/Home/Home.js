@@ -1,6 +1,7 @@
 import React from "react";
 import AboutSection from "./AboutSection";
 import Banner from "./Banner";
+import Brand from "./Brand";
 import Product from "./Product";
 import Program from "./Program";
 import Reservations from "./Reservations";
@@ -15,6 +16,7 @@ const Home = () => {
       <Program />
       <Together />
       <Reservations />
+      <Brand />
     </div>
   );
 };

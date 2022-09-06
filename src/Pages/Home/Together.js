@@ -9,7 +9,7 @@ const Together = () => {
   return (
     <div>
       <div className="lg:mt-20 py-20 lg:mx-20 lg:flex block px-10">
-        <div className="lg:w-1/2 w-full grid grid-cols-2 h">
+        <div className="lg:w-1/2 w-full grid grid-cols-2">
           <div className="border-2 text-center ">
             <img
               src={ent}

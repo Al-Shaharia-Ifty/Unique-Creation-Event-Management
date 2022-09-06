@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import bg from "../../Assets/logo/lines_section4.jpg";
 import img from "../../Assets/images/reserved_sec9.jpg";
 import logo from "../../Assets/logo/Design_element.png";
 import { useForm } from "react-hook-form";
-import { DayPicker } from "react-day-picker";
+// import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 
 const Reservations = () => {
@@ -13,7 +13,7 @@ const Reservations = () => {
     handleSubmit,
   } = useForm();
 
-  const [date, setDate] = useState(new Date());
+  // const [date, setDate] = useState(new Date());
 
   const onSubmit = (data) => {
     console.log(data);
@@ -26,7 +26,7 @@ const Reservations = () => {
         backgroundSize: "cover",
       }}
     >
-      <div className="lg:flex block pt-36 pb-96">
+      <div className="lg:flex block pt-36 pb-80">
         <div className="lg:w-1/2 w-full px-10 text-center">
           <img
             src={img}

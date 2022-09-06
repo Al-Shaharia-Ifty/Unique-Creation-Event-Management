@@ -21,19 +21,19 @@ const Program = () => {
             <img
               src={img1}
               alt=""
-              className="border-4 border-white rounded-tl-[50px] rounded-bl-[50px] hover:scale-110 transition ease-linear duration-200"
+              className="border-4 shadow-2xl border-white rounded-tl-[50px] rounded-bl-[50px] hover:scale-110 transition ease-linear duration-200"
             />
           </div>
           <div className="grid col-span-2 grid-rows-5 lg:gap-8 gap-4">
             <img
               src={img2}
               alt=""
-              className="row-span-3 h-full border-4 border-white rounded-tr-[50px] hover:scale-110 transition ease-linear duration-200"
+              className="row-span-3 shadow-2xl h-full border-4 border-white rounded-tr-[50px] hover:scale-110 transition ease-linear duration-200"
             />
             <img
               src={img3}
               alt=""
-              className="row-span-2 h-full border-4 border-white rounded-br-[50px] hover:scale-110 transition ease-linear duration-200"
+              className="row-span-2 shadow-2xl h-full border-4 border-white rounded-br-[50px] hover:scale-110 transition ease-linear duration-200"
             />
           </div>
         </div>

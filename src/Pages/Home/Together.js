@@ -7,7 +7,7 @@ import logo from "../../Assets/logo/Design_element.png";
 
 const Together = () => {
   return (
-    <div>
+    <div className="bg-white">
       <div className="lg:mt-20 py-20 lg:mx-20 lg:flex block px-10">
         <div className="lg:w-1/2 w-full grid grid-cols-2">
           <div className="border-2 text-center ">

@@ -6,19 +6,19 @@ import logo from "../../Assets/logo/body_bird-e1658928262504.png";
 
 const AboutSection = () => {
   return (
-    <div className="lg:mx-32 lg:flex lg:items-center my-20 ">
+    <div className="lg:mx-32 lg:flex lg:items-center my-20">
       <div className="lg:w-2/4 w-full">
         <p className="text-pink-500 text-xl">About Us</p>
-        <h2 className="lg:text-6xl text-3xl font-banner mt-5">
+        <h2 className="lg:text-6xl text-3xl font-banner mt-5 text-amber-500">
           What We do, We do With Passion
         </h2>
-        <p className="mt-5 font-line text-xl">
+        <p className="mt-5 font-line text-xl text-white">
           Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusm
           tempor incididunt
         </p>
         <Link
           to="/about"
-          className="rounded-full btn btn-outline mt-5 hover:bg-pink-500 hover:border-0  transition ease-in-out duration-500"
+          className="rounded-full text-amber-500 btn btn-outline mt-5 hover:bg-amber-500 hover:border-0  transition ease-in-out duration-500"
         >
           Learn More
         </Link>

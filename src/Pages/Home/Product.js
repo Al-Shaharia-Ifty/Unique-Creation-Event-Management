@@ -1,10 +1,11 @@
 import React from "react";
 import bg from "../../Assets/logo/blue-banner.jpg";
 import logo from "../../Assets/logo/Design_element.png";
-import chair from "../../Assets/images/chair.jpg";
-import walls from "../../Assets/images/weddingwalls.jpg";
-import cater from "../../Assets/images/catering.jpg";
-import metal from "../../Assets/images/metal_circles-2.jpg";
+import baowa from "../../Assets/Enlisted hall/Baowa.jpg";
+import eon from "../../Assets/Enlisted hall/eon.jpg";
+import tokyo from "../../Assets/Enlisted hall/tokyo.jpg";
+import mal from "../../Assets/Enlisted hall/mal.jpg";
+import kunjo from "../../Assets/Enlisted hall/kunjo.jpg";
 
 const Product = () => {
   return (
@@ -15,41 +16,45 @@ const Product = () => {
       }}
       className="mt-60"
     >
-      <div className="lg:mx-32 lg:flex lg:items-center mt-20 block mx-8 py-10">
-        <div className="lg:w-2/4 w-full mr-10">
-          <img
-            src={logo}
-            alt=""
-            className="mx-auto mt-6 hover:scale-110 transition ease-linear duration-200"
-          />
-          <h2 className="lg:text-6xl text-3xl text-center font-banner mt-6">
-            Includes Various Product Categories
-          </h2>
-          <p className="text-xl text-center font-line my-6">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit sed doeiusm
-            tempor incididunt
-          </p>
-        </div>
-        <div className="grid grid-cols-2 gap-4">
+      <div className="lg:w-2/4 w-full mx-auto py-10">
+        <img
+          src={logo}
+          alt=""
+          className="mx-auto mt-6 hover:scale-110 transition ease-linear duration-200"
+        />
+        <h2 className="lg:text-6xl text-3xl text-center font-banner mt-6">
+          Enlisted Halls
+        </h2>
+      </div>
+      <div className="lg:mx-20 mx-10 pb-20">
+        <div className="grid lg:grid-cols-3 grid-cols-2 gap-4">
           <div className="bg-white border-white border-4 shadow-2xl">
-            <img src={chair} alt="" className="w-full" />
-            <p className="text-center text-xl py-3 font-banner">Chairs</p>
-          </div>
-          <div className="bg-white border-white border-4 shadow-2xl">
-            <img src={walls} alt="" className="w-full" />
+            <img src={baowa} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">
-              Wedding Walls
+              Baowa Convention Hall
             </p>
           </div>
           <div className="bg-white border-white border-4 shadow-2xl">
-            <img src={cater} alt="" className="w-full" />
-            <p className="text-center text-xl py-3 font-banner">Catering</p>
+            <img src={eon} alt="" className="w-full" />
+            <p className="text-center text-xl py-3 font-banner">
+              Eon Convention Hall
+            </p>
           </div>
           <div className="bg-white border-white border-4 shadow-2xl">
-            <img src={metal} alt="" className="w-full" />
+            <img src={tokyo} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">
-              Metal Circles & Flowers
+              Tokyo Convention Hall
             </p>
+          </div>
+          <div className="bg-white border-white border-4 shadow-2xl">
+            <img src={mal} alt="" className="w-full" />
+            <p className="text-center text-xl py-3 font-banner">
+              Sena Malancha
+            </p>
+          </div>
+          <div className="bg-white border-white border-4 shadow-2xl">
+            <img src={kunjo} alt="" className="w-full" />
+            <p className="text-center text-xl py-3 font-banner">Sena Kunjo</p>
           </div>
         </div>
       </div>

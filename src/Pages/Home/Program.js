@@ -13,7 +13,7 @@ const Program = () => {
           alt=""
           className="mx-auto  hover:scale-110 transition ease-linear duration-200"
         />
-        <h2 className="text-3xl lg:text-5xl font-banner text-center mt-6 w-full lg:w-11/12 mx-auto">
+        <h2 className="text-3xl lg:text-5xl font-banner text-center mt-6 w-full lg:w-11/12 mx-auto text-amber-500">
           The Unrivaled Scenery, Unforgettable Wedding Program
         </h2>
         <div className="grid grid-cols-5 lg:gap-8 gap-4 my-16">

@@ -3,10 +3,11 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div class="navbar bg-pink-200 px-6">
+    <div class="navbar bg-gray-900 px-6 ">
       <div class="navbar-start">
+        {/* mobile */}
         <div class="dropdown">
-          <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <label tabindex="0" class="btn btn-ghost lg:hidden text-white">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
@@ -24,7 +25,7 @@ const Navbar = () => {
           </label>
           <ul
             tabindex="0"
-            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-900 rounded-box w-52"
           >
             <li>
               <NavLink
@@ -32,7 +33,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm  bg-transparent hover:text-amber-400"
+                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Home
@@ -44,7 +45,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm  bg-transparent hover:text-amber-400"
+                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 About Us
@@ -56,7 +57,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm  bg-transparent hover:text-amber-400"
+                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Services
@@ -70,14 +71,14 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </NavLink>
-              <ul class="p-2 bg-base-100">
+              <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/services/decoration"
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Decoration
@@ -89,7 +90,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Catering
@@ -101,7 +102,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Photography
@@ -113,7 +114,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Lighting
@@ -125,7 +126,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     LED System
@@ -137,7 +138,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Sound & DJ
@@ -149,7 +150,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Appetizer
@@ -161,7 +162,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Logistic Support
@@ -173,7 +174,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Entertainment
@@ -185,7 +186,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Kids Play Zone
@@ -197,7 +198,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Vence Arrangement
@@ -209,7 +210,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Studio Rent
@@ -223,7 +224,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm  bg-transparent hover:text-amber-400"
+                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Program We Cover
@@ -237,14 +238,14 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </NavLink>
-              <ul class="p-2 bg-base-100">
+              <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/program-we-cover/hadli-night"
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Haldi Night
@@ -256,7 +257,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Mehedi Night
@@ -268,7 +269,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Wedding
@@ -280,7 +281,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Recaption
@@ -292,7 +293,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Anniversary
@@ -304,7 +305,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Corporate
@@ -316,7 +317,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Birthday
@@ -328,7 +329,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Baby Shower
@@ -340,7 +341,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Sunnate Khatna
@@ -352,7 +353,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Home Decor
@@ -364,7 +365,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     occasional parties{" "}
@@ -376,7 +377,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Govt Project
@@ -390,7 +391,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm  bg-transparent hover:text-amber-400"
+                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Enlisted Hall
@@ -404,14 +405,14 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </NavLink>
-              <ul class="p-2 bg-base-100">
+              <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/enlisted-hall/baowa-convention-hall"
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Baowa Convention Hall
@@ -423,7 +424,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Tokey Convention Hall
@@ -435,7 +436,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Eon Convention Hall
@@ -447,7 +448,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Sena Malancha
@@ -459,7 +460,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Sena Kunjo
@@ -473,7 +474,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   isActive
                     ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm  bg-transparent hover:text-amber-400"
+                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Gallery
@@ -487,14 +488,14 @@ const Navbar = () => {
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg>
               </NavLink>
-              <ul class="p-2 bg-base-100">
+              <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/gallery/stage"
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Stage
@@ -506,7 +507,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Photo Booth
@@ -518,7 +519,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Head Table
@@ -530,7 +531,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Walkway
@@ -542,7 +543,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Tent
@@ -554,7 +555,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Entry Gate
@@ -566,7 +567,7 @@ const Navbar = () => {
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm  bg-transparent hover:text-amber-400"
+                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
                     Photography
@@ -576,10 +577,14 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" class="text-2xl btn btn-ghost normal-case ">
-          Event Management
+        <Link
+          to="/"
+          class="lg:text-2xl md:text-2xl text-[20px] p-0 btn btn-ghost normal-case text-white"
+        >
+          Unique Creation Event Management
         </Link>
       </div>
+      {/* desktop */}
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal p-0">
           <li>
@@ -588,7 +593,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "text-amber-400 rounded-sm  bg-transparent"
-                  : "rounded-sm  bg-transparent hover:text-amber-400"
+                  : "rounded-sm text-white bg-transparent hover:text-amber-400"
               }
             >
               Home
@@ -600,7 +605,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "text-amber-400 rounded-sm  bg-transparent"
-                  : "rounded-sm  bg-transparent hover:text-amber-400"
+                  : "rounded-sm text-white bg-transparent hover:text-amber-400"
               }
             >
               About Us
@@ -612,7 +617,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "text-amber-400 rounded-sm  bg-transparent"
-                  : "rounded-sm  bg-transparent hover:text-amber-400"
+                  : "rounded-sm text-white bg-transparent hover:text-amber-400"
               }
             >
               Services
@@ -626,14 +631,14 @@ const Navbar = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </NavLink>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-gray-900 z-10">
               <li>
                 <NavLink
                   to="/services/decoration"
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Decoration
@@ -645,7 +650,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Catering
@@ -657,7 +662,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Photography
@@ -669,7 +674,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Lighting
@@ -681,7 +686,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   LED System
@@ -693,7 +698,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Sound & DJ
@@ -705,7 +710,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Appetizer
@@ -717,7 +722,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Logistic Support
@@ -729,7 +734,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Entertainment
@@ -741,7 +746,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Kids Play Zone
@@ -753,7 +758,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Vence Arrangement
@@ -765,7 +770,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Studio Rent
@@ -779,7 +784,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "text-amber-400 rounded-sm  bg-transparent"
-                  : "rounded-sm  bg-transparent hover:text-amber-400"
+                  : "rounded-sm text-white bg-transparent hover:text-amber-400"
               }
             >
               Program We Cover
@@ -793,14 +798,14 @@ const Navbar = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </NavLink>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-gray-900 z-10">
               <li>
                 <NavLink
                   to="/program-we-cover/hadli-night"
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Haldi Night
@@ -812,7 +817,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Mehedi Night
@@ -824,7 +829,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Wedding
@@ -836,7 +841,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Recaption
@@ -848,7 +853,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Anniversary
@@ -860,7 +865,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Corporate
@@ -872,7 +877,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Birthday
@@ -884,7 +889,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Baby Shower
@@ -896,7 +901,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Sunnate Khatna
@@ -908,7 +913,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Home Decor
@@ -920,7 +925,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   occasional parties{" "}
@@ -932,93 +937,10 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Govt Project
-                </NavLink>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <NavLink
-              to="/enlisted-hall"
-              className={({ isActive }) =>
-                isActive
-                  ? "text-amber-400 rounded-sm  bg-transparent"
-                  : "rounded-sm  bg-transparent hover:text-amber-400"
-              }
-            >
-              Enlisted Hall
-              <svg
-                class="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-              </svg>
-            </NavLink>
-            <ul class="p-2 bg-base-100">
-              <li>
-                <NavLink
-                  to="/enlisted-hall/baowa-convention-hall"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
-                  }
-                >
-                  Baowa Convention Hall
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/enlisted-hall/tokey-convention-hall"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
-                  }
-                >
-                  Tokey Convention Hall
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/enlisted-hall/eon-convention-hall"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
-                  }
-                >
-                  Eon Convention Hall
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/enlisted-hall/sena-malancha"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
-                  }
-                >
-                  Sena Malancha
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/enlisted-hall/sena-kunjo"
-                  className={({ isActive }) =>
-                    isActive
-                      ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
-                  }
-                >
-                  Sena Kunjo
                 </NavLink>
               </li>
             </ul>
@@ -1029,7 +951,7 @@ const Navbar = () => {
               className={({ isActive }) =>
                 isActive
                   ? "text-amber-400 rounded-sm  bg-transparent"
-                  : "rounded-sm  bg-transparent hover:text-amber-400"
+                  : "rounded-sm text-white bg-transparent hover:text-amber-400"
               }
             >
               Gallery
@@ -1043,14 +965,14 @@ const Navbar = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </NavLink>
-            <ul class="p-2 bg-base-100">
+            <ul class="p-2 bg-gray-900 z-10">
               <li>
                 <NavLink
                   to="/gallery/stage"
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Stage
@@ -1062,7 +984,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Photo Booth
@@ -1074,7 +996,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Head Table
@@ -1086,7 +1008,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Walkway
@@ -1098,7 +1020,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Tent
@@ -1110,7 +1032,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Entry Gate
@@ -1122,7 +1044,7 @@ const Navbar = () => {
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
-                      : "rounded-sm  bg-transparent hover:text-amber-400"
+                      : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
                   Photography

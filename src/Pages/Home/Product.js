@@ -31,7 +31,7 @@ const Product = () => {
           <div className="bg-white border-white border-4 shadow-2xl">
             <img src={baowa} alt="" className="w-full" />
             <p className="text-center text-xl py-3 font-banner">
-              Baowa Convention Hall
+              Raowa Convention Hall
             </p>
           </div>
           <div className="bg-white border-white border-4 shadow-2xl">

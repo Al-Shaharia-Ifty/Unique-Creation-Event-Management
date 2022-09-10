@@ -241,7 +241,7 @@ const Navbar = () => {
               <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
-                    to="/program-we-cover/hadli-night"
+                    to="/program-we-cover/haldi-night"
                     className={({ isActive }) =>
                       isActive
                         ? "text-amber-400 rounded-sm  bg-transparent"
@@ -368,7 +368,7 @@ const Navbar = () => {
                         : "rounded-sm text-white bg-transparent hover:text-amber-400"
                     }
                   >
-                    occasional parties{" "}
+                    Occasional Parties
                   </NavLink>
                 </li>
                 <li>
@@ -381,89 +381,6 @@ const Navbar = () => {
                     }
                   >
                     Govt Project
-                  </NavLink>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <NavLink
-                to="/enlisted-hall"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                }
-              >
-                Enlisted Hall
-                <svg
-                  class="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
-              </NavLink>
-              <ul class="p-2 bg-gray-900">
-                <li>
-                  <NavLink
-                    to="/enlisted-hall/baowa-convention-hall"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Baowa Convention Hall
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/enlisted-hall/tokey-convention-hall"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Tokey Convention Hall
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/enlisted-hall/eon-convention-hall"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Eon Convention Hall
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/enlisted-hall/sena-malancha"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Sena Malancha
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/enlisted-hall/sena-kunjo"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Sena Kunjo
                   </NavLink>
                 </li>
               </ul>
@@ -801,7 +718,7 @@ const Navbar = () => {
             <ul class="p-2 bg-gray-900 z-10">
               <li>
                 <NavLink
-                  to="/program-we-cover/hadli-night"
+                  to="/program-we-cover/haldi-night"
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
@@ -837,14 +754,14 @@ const Navbar = () => {
               </li>
               <li>
                 <NavLink
-                  to="/program-we-cover/recaption"
+                  to="/program-we-cover/reception"
                   className={({ isActive }) =>
                     isActive
                       ? "text-amber-400 rounded-sm  bg-transparent"
                       : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
-                  Recaption
+                  Reception
                 </NavLink>
               </li>
               <li>
@@ -928,7 +845,7 @@ const Navbar = () => {
                       : "rounded-sm text-white bg-transparent hover:text-amber-400"
                   }
                 >
-                  occasional parties{" "}
+                  Occasional Parties
                 </NavLink>
               </li>
               <li>

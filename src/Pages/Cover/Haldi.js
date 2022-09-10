@@ -5,11 +5,11 @@ import img3 from "../../Assets/resize/program_we_cover/haldi_night/HN (3).jpg";
 
 const Haldi = () => {
   return (
-    <div className="h-screen bg-gray-900" s>
+    <div className="min-h-screen bg-gray-900">
       <div>
         <div
           id="carouselExampleIndicators"
-          class="carousel slide relative mx-80 h-[60vh]"
+          class="carousel slide relative lg:mx-80 lg:h-[60vh] h-[43vh] md:h-[60vh] md:mx-20"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -71,7 +71,7 @@ const Haldi = () => {
           </button>
         </div>
       </div>
-      <div className="mx-20">
+      <div className="lg:mx-20 mx-10">
         <h2 className="text-4xl text-center text-amber-500 font-banner mt-10">
           Heldi Night.
         </h2>

@@ -61,7 +61,7 @@ const Navbar = () => {
                 }
               >
                 Services
-                <svg
+                {/* <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -69,9 +69,9 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                 >
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
+                </svg> */}
               </NavLink>
-              <ul class="p-2 bg-gray-900">
+              {/* <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/services/decoration"
@@ -216,7 +216,7 @@ const Navbar = () => {
                     Studio Rent
                   </NavLink>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li tabindex="0">
               <NavLink
@@ -228,7 +228,7 @@ const Navbar = () => {
                 }
               >
                 Program We Cover
-                <svg
+                {/* <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -236,9 +236,9 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                 >
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
+                </svg> */}
               </NavLink>
-              <ul class="p-2 bg-gray-900">
+              {/* <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/program-we-cover/haldi-night"
@@ -383,7 +383,7 @@ const Navbar = () => {
                     Govt Project
                   </NavLink>
                 </li>
-              </ul>
+              </ul> */}
             </li>
             <li>
               <NavLink
@@ -395,7 +395,7 @@ const Navbar = () => {
                 }
               >
                 Gallery
-                <svg
+                {/* <svg
                   class="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -403,9 +403,9 @@ const Navbar = () => {
                   viewBox="0 0 24 24"
                 >
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg>
+                </svg> */}
               </NavLink>
-              <ul class="p-2 bg-gray-900">
+              {/* <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
                     to="/gallery/stage"
@@ -490,7 +490,7 @@ const Navbar = () => {
                     Photography
                   </NavLink>
                 </li>
-              </ul>
+              </ul> */}
             </li>
           </ul>
         </div>

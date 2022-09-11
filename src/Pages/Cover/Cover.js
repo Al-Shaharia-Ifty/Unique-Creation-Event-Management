@@ -97,7 +97,7 @@ const Cover = () => {
           </figure>
           <div className="card-body">
             <h2 className="lg:text-4xl text-2xl font-banner text-center text-amber-500">
-              birthday
+              Birthday
             </h2>
           </div>
         </Link>

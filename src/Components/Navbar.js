@@ -28,203 +28,41 @@ const Navbar = () => {
             class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-gray-900 rounded-box w-52"
           >
             <li>
-              <NavLink
-                to="/"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
+              <a
+                href="/"
+                className={
+                  "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Home
-              </NavLink>
+              </a>
             </li>
             <li>
-              <NavLink
-                to="/about"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
+              <a
+                href="/about"
+                className={
+                  "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 About Us
-              </NavLink>
+              </a>
             </li>
+
             <li tabindex="0">
-              <NavLink
-                to="/services"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
+              <a
+                href="/services"
+                className={
+                  "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Services
-                {/* <svg
-                  class="fill-current"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                </svg> */}
-              </NavLink>
-              {/* <ul class="p-2 bg-gray-900">
-                <li>
-                  <NavLink
-                    to="/services/decoration"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Decoration
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/catering"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Catering
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/photography"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Photography
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/lighting"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Lighting
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/led-system"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    LED System
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/sound-dj"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Sound & DJ
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/appetizer"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Appetizer
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/logistic-support"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Logistic Support
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/entertainment"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Entertainment
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/kids-play-zone"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Kids Play Zone
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/vence-arrangement"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Vence Arrangement
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink
-                    to="/services/studio-rent"
-                    className={({ isActive }) =>
-                      isActive
-                        ? "text-amber-400 rounded-sm  bg-transparent"
-                        : "rounded-sm text-white bg-transparent hover:text-amber-400"
-                    }
-                  >
-                    Studio Rent
-                  </NavLink>
-                </li>
-              </ul> */}
+              </a>
             </li>
             <li tabindex="0">
-              <NavLink
-                to="/program-we-cover"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
+              <a
+                href="/program-we-cover"
+                className={
+                  "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Program We Cover
@@ -237,7 +75,7 @@ const Navbar = () => {
                 >
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg> */}
-              </NavLink>
+              </a>
               {/* <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
@@ -386,12 +224,10 @@ const Navbar = () => {
               </ul> */}
             </li>
             <li>
-              <NavLink
-                to="/gallery"
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-amber-400 rounded-sm  bg-transparent"
-                    : "rounded-sm text-white bg-transparent hover:text-amber-400"
+              <a
+                href="/gallery"
+                className={
+                  "rounded-sm text-white bg-transparent hover:text-amber-400"
                 }
               >
                 Gallery
@@ -404,7 +240,7 @@ const Navbar = () => {
                 >
                   <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                 </svg> */}
-              </NavLink>
+              </a>
               {/* <ul class="p-2 bg-gray-900">
                 <li>
                   <NavLink
@@ -976,3 +812,162 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+//service mobile er ul
+/* <svg
+  class="fill-current"
+  xmlns="http://www.w3.org/2000/svg"
+  width="20"
+  height="20"
+  viewBox="0 0 24 24"
+>
+  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+</svg> */
+
+//
+/* <ul class="p-2 bg-gray-900">
+<li>
+  <NavLink
+    to="/services/decoration"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Decoration
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/catering"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Catering
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/photography"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Photography
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/lighting"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Lighting
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/led-system"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    LED System
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/sound-dj"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Sound & DJ
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/appetizer"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Appetizer
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/logistic-support"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Logistic Support
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/entertainment"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Entertainment
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/kids-play-zone"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Kids Play Zone
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/vence-arrangement"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Vence Arrangement
+  </NavLink>
+</li>
+<li>
+  <NavLink
+    to="/services/studio-rent"
+    className={({ isActive }) =>
+      isActive
+        ? "text-amber-400 rounded-sm  bg-transparent"
+        : "rounded-sm text-white bg-transparent hover:text-amber-400"
+    }
+  >
+    Studio Rent
+  </NavLink>
+</li>
+              ul> */

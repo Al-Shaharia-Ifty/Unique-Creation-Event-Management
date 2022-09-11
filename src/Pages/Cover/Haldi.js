@@ -9,7 +9,7 @@ const Haldi = () => {
       <div>
         <div
           id="carouselExampleIndicators"
-          class="carousel slide relative lg:mx-80 lg:h-[60vh] h-[43vh] md:h-[60vh] md:mx-20"
+          class="carousel slide relative mx-auto h-60 md:h-[342px] lg:h-[450px] w-[425px] md:w-[608px] lg:w-[800px]"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
